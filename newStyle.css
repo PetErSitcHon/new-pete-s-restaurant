@@ -1,0 +1,143 @@
+
+.content
+{   
+    display: inline-block;
+    align-items: center;
+    text-align: center; 
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.bussines_name
+{
+    position: absolute;
+    display: block;
+    padding: 20px;
+   
+}
+#pete
+{
+    font-family: 'Days One' sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 90px;
+    font-weight: 400;
+}
+h2{
+    font-family: 'Days One' sans-serif;
+    color: white;
+    font-size: 90px;
+    font-weight: 400;
+}
+.food-name{
+    font-family: 'Days One' sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 90px;
+    font-weight: 400;
+}
+p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+.menu_button
+{
+    font-family: 'Dela Gothic One', cursive;
+    text-decoration: none;
+    background-color: #f0a544;
+    font-size: 25px;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px; 
+}
+#menu_button
+{
+    text-decoration: none;
+    background-color: #f0a544;
+    font-size: 25px;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+a
+{
+    text-decoration: none;
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .content
+    {
+        z-index: -1;
+    }
+
+    .content
+    {   
+        display:block;
+        align-items: center;
+        text-align: center; 
+    }
+    .bussines_name
+    {
+        align-items: center;
+    }
+    
+}
+@media only screen and (max-width: 500px) {
+    
+    .content
+{
+    display: block;
+    align-items: center;
+    position: relative;
+}
+.bussines_name
+{
+    align-items: center;
+}
+#business_name
+{
+    font-size: 70px;
+}
+.menu_button
+{
+    font-family: 'Dela Gothic One', cursive;
+    text-decoration: none;
+    background-color: #f0a544;
+    font-size: 15px;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px; 
+}
+#menu_button
+{
+    text-decoration: none;
+    background-color: #f0a544;
+    font-size: 15px;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+a
+{
+    text-decoration: none;
+}
+p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 12px;
+}
+    
+}

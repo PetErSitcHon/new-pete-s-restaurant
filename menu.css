@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Dela+Gothic+One&family=League+Gothic&family=Roboto+Mono:ital,wght@0,500;1,600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "ubuntu";
+}
+
+body
+{
+    background-color: #f0ad55;
+}
+img {
+    width: 100%;
+}
+
+section
+{
+    margin: 2rem ;
+}
+.food-item{
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+    color: #000;
+    margin: 0.6rem 0;
+    box-shadow: 0 0 16px -4px rgba(0, 0, 0, 0.75);
+    animation: fadeIn 2s;
+}
+img{
+    max-height: 250px;
+    width: 100%;
+    display: block;
+}
+.greetings,.ulam
+{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+}
+.ourMenu
+{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: #f89b0f;
+font-size: 100px;
+text-transform: capitalize;
+}
+.mainCourse
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+.menuIntro
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-size: 15px;
+}
+.food-items
+{
+    margin: 2rem 0;
+}
+.rating{
+    display: flex;
+    list-style: none;
+}
+.cont
+{
+display: flex;
+align-items: center;
+text-align: center;
+}
+button
+{
+border: none;
+border-radius: 5px;
+background-color: #E39733;
+width: 170px;
+padding: 15px;
+margin: 20px auto;
+line-height:16px;   
+margin-left: 20px;
+}
+.food-name h2
+{
+    color: #E39733;
+    
+}
+
+@media only screen and (max-width: 1000px) {
+
+    
+
+}
+@media only screen and (max-width: 500px) {
+    
+a
+{
+    text-decoration: none;
+}
+p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 12px;
+}
+.food-item{
+    display: grid;
+    grid-template-columns: 25% auto;
+    align-items: center;
+    padding: 1rem;
+    column-gap: 1rem;
+}
+.food-content{
+    padding: 0;
+}  
+}
+@media screen and (min-width: 992px){
+    .menu-head p{
+        width: 50%;
+    }
+    .food-items{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+    }
+}
