@@ -4,6 +4,7 @@
 
 if(isset($_POST['add_to_cart'])){
 
+
    $product_name = $_POST['product_name'];
    $product_price = $_POST['product_price'];
    $product_image = $_POST['product_image'];
@@ -75,12 +76,12 @@ if(isset($message)){
 <form action="" method="post">
    <div class = "food-item featured">
               <div class = "food-img">
-                <img src="uploaded_img/<?php echo $fetch_product['image']; ?>" alt="">
+                <img src="uploaded_img/<?php echo $fetch_product['image']; ?>" alt="" name="product_image">
               </div>
               <div class = "food-content">
-                <h2 class = "food-name"><?php echo $fetch_product['name']; ?></h2>
+                <h2 class = "food-name"><?php echo $fetch_product['name']; ?></h2 name="product_name">
                 <div class = "line"></div>
-                <h3 class = "food-price"><?php echo $fetch_product['price']; ?></h3>
+                <h3 class = "food-price" name="product_price"><?php echo $fetch_product['price']; ?></h3>
                 <ul class = "rating">
                   <li><i class = "fas fa-star"></i></li>
                   <li><i class = "fas fa-star"></i></li>
@@ -90,7 +91,12 @@ if(isset($message)){
                 </ul>
                 <div class="cont">
                   <div class="crtdiv">
-                     <button id="btn" type="button" class="cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</button>
+                  <input type="hidden" name="product_name" value="<?php echo $fetch_product['name']; ?>">
+                  <input type="hidden" name="product_price" value="<?php echo $fetch_product['price']; ?>">
+                  <input type="hidden" name="product_image" value="<?php echo $fetch_product['image']; ?>">
+                  <input type="submit" class="btn" value="add to cart" name="add_to_cart">
+                  <!-- <button id="btn" type="button" class="cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</button> -->
+                     
                   </div>
                </div>
               </div>

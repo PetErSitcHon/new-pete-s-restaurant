@@ -46,11 +46,6 @@
            
         </div>
 
-    
-        <!-- <div ></div>
-        <div style="background-color: #fbf2c4"> Hi</div>
-        <div style="background-color: #74a892">Hi </div>
-        <div style="background-color: #008585">Hi </div> -->
      </div>
     
 </body>

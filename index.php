@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    
     <div class="bg_image"></div>
 
     <?php include 'header.php'; ?>

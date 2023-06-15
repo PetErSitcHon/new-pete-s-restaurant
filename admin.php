@@ -48,7 +48,6 @@ if(isset($_GET['delete'])){
    <!-- custom css file link  -->
   
    <link rel="stylesheet" href="adminStyle.css">
-   <link rel="stylesheet" href="newStyle.css">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
 </head>

@@ -7,20 +7,13 @@
     list-style: none;
     font-family: "ubuntu";
 }
-.bg_image
+
+.logo
 {
-    background-image: url(image/spaghetti-g8f08526fe_1920.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
+    height: 100px;
+    width: 100px;
 }
-img {
-    width: 100%;
-}
+
 header {
     height: 120px;
     display: flex;
@@ -137,11 +130,6 @@ a
 {
     text-decoration: none;
 }
-p{
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 500;
-    font-size: 12px;
-}
+
     
 }

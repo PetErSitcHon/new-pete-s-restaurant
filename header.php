@@ -15,7 +15,7 @@
         <header>
             <div class="header-left">
                 <div class="logo">
-                    <img src="image/logo.png" alt="">
+                    <img src="image/logo.png" alt="" class="logo">
                 </div>
                 <nav>
                     <ul>
@@ -39,7 +39,7 @@
             </div>
             <div class="header-right">
                 <div class="login-signup">
-                    <a href="admin.php"><i class="bi bi-cart3 "></i></a> 
+                    <a href="cart.php"><i class="bi bi-cart3 "></i></a> 
                     <a href="admin.php">Login</a>
                 </div>
                 <div class="hamburger">
