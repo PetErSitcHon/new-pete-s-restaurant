@@ -33,14 +33,14 @@
                         </li>
                     </ul>
                     <div class="login-signup">
-                        <a href="admin.php  ">Login</a>    <a href="admin.php"><i class="bi bi-cart3 "></i></a> 
+                        <a href="login_form.php">Login</a>    <a href="cart.php"><i class="bi bi-cart3 "></i></a> 
                     </div>
                 </nav>
             </div>
             <div class="header-right">
                 <div class="login-signup">
                     <a href="cart.php"><i class="bi bi-cart3 "></i></a> 
-                    <a href="admin.php">Login</a>
+                    <a href="login_form.php">Login</a>
                 </div>
                 <div class="hamburger">
                     <div></div>
